@@ -1,0 +1,33 @@
+[project]
+name = "qwen3-vl-autotagger-cli"
+version = "0.1.0"
+description = "Standalone CLI that generates Adobe Stock-style metadata with Qwen3-VL."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "ekkonwork" }]
+dependencies = [
+  "transformers @ git+https://github.com/huggingface/transformers",
+  "qwen-vl-utils>=0.0.14",
+  "accelerate>=0.30.0",
+  "bitsandbytes>=0.43.0",
+  "Pillow>=10.0.0",
+  "torch>=2.1.0",
+]
+
+[project.urls]
+Repository = "https://github.com/ekkonwork/qwen3-vl-autotagger-cli"
+Documentation = "https://github.com/ekkonwork/qwen3-vl-autotagger-cli#readme"
+Issues = "https://github.com/ekkonwork/qwen3-vl-autotagger-cli/issues"
+
+[project.scripts]
+qwen3-vl-autotagger = "qwen3_vl_autotagger_cli.cli:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["qwen3_vl_autotagger_cli*"]
