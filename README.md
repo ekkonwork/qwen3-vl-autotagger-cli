@@ -16,6 +16,17 @@ Standalone CLI version of Qwen3-VL AutoTagger: generate Adobe Stock-style title 
 - Supports auto-download of `Qwen/Qwen3-VL-8B-Instruct` on first run
 - Optional 4-bit quantization on CUDA
 
+## Screenshots
+
+Embedded XMP Metadata
+![Metadata Screenshot](assets/metadata_screenshot.png)
+
+Adobe Stock Result Example 1
+![Adobe Stock Result 1](assets/on_stock_tags1.png)
+
+Adobe Stock Result Example 2
+![Adobe Stock Result 2](assets/on_stock_tags2.png)
+
 ## Quick Start
 
 1. Clone repository:
@@ -146,4 +157,3 @@ Open to collaboration and work opportunities in AI tooling and automation.
 ## License
 
 MIT. See `LICENSE`.
-
