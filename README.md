@@ -2,10 +2,18 @@
 
 [![Donate on Boosty](https://img.shields.io/badge/Donate-Boosty-F15F2C?style=for-the-badge)](https://boosty.to/ekkonwork/donate)
 [![Hire Me on LinkedIn](https://img.shields.io/badge/Hire%20Me-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mikhail-kuznetsov-14304433b)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ekkonwork/qwen3-vl-autotagger-cli/blob/main/Colab_T4_CLI_Prod.ipynb)
 
 ![Qwen3 VL AutoTagger CLI](assets/banner_tagger_for_stock.webp)
 
 Standalone CLI version of Qwen3-VL AutoTagger: generate Adobe Stock-style title + keywords and optionally embed XMP metadata into saved images.
+
+## Colab (Production)
+
+Use the production notebook with one-click Colab launch:
+
+- `Colab_T4_CLI_Prod.ipynb`: run tagging with XMP enabled by default and output download.
+- `Colab_T4_CLI_Diagnostic.ipynb`: extended diagnostics and troubleshooting report.
 
 ## Highlights
 

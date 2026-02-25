@@ -3,7 +3,7 @@ __pycache__/
 .venv/
 venv/
 outputs/
+colab_t4_diagnostic_report*.txt
 dist/
 build/
 *.egg-info/
-
