@@ -13,7 +13,6 @@ Standalone CLI version of Qwen3-VL AutoTagger: generate Adobe Stock-style title 
 Use the production notebook with one-click Colab launch:
 
 - `Colab_T4_CLI_Prod.ipynb`: run tagging with XMP enabled by default and output download.
-- `Colab_T4_CLI_Diagnostic.ipynb`: extended diagnostics and troubleshooting report.
 
 ## Highlights
 
