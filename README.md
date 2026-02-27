@@ -8,6 +8,13 @@
 
 Standalone CLI version of Qwen3-VL AutoTagger: generate Adobe Stock-style title + keywords and optionally embed XMP metadata into saved images.
 
+## ComfyUI Node Version
+
+Need the same tagging pipeline directly inside ComfyUI? Use the node project:
+
+[![ComfyUI Node Repository](https://img.shields.io/badge/ComfyUI-Node-1F6FEB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ekkonwork/comfyui-qwen3-autotagger)
+[![ComfyUI Workflows](https://img.shields.io/badge/ComfyUI-Workflows-0DB7ED?style=for-the-badge)](https://github.com/ekkonwork/comfyui-qwen3-autotagger/tree/main/example_workflows)
+
 ## Colab (Production)
 
 Use the production notebook with one-click Colab launch:
